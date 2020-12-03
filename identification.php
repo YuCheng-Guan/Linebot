@@ -4,13 +4,6 @@
 </head>
 
 <body>
-<meta charset="utf-8">    
-<h1>請輸入密碼:</h1>
-<form action ="identification.php" method="GET">
-<label for="pass"><br></label>
-<input type="text" style="font-size: small;font-family: Microsoft JhengHei;padding:10px" id ="pass" name="password"><br><br>
-<input type="submit" value="送出" style="width:100px;height: 50px;font-size: medium;font-family: Microsoft JhengHei;"> <br> <br>
-</form>
 
 <?php 
 $password = $_GET["password"];
