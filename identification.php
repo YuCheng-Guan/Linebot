@@ -19,7 +19,7 @@ for($i=0;$i<5;$i++){
         if ($password == $passwordarray[$i]){
             echo "<img src= ","\"https:","/" , $img_src[$i][1],"\"","width=600><br>";
             echo "<img src= ","\"https:","/" , $img_src[$i][2],"\"","width=600><br>";
-            echo "<input type='button value='回上頁' onclick="<script>history.go(-1)</script>" >
+            echo "<input type='button value='回上頁' onclick="<script>history.go(-1)</script>" >;
             exit();
         }
     }
