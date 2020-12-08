@@ -1,15 +1,22 @@
 <html>
 <head>
-    <meta charset="utf-8">    
-    <title> 黃金傳說之校園尋寶</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>黃金傳說之校園尋寶</title>
 </head>
 
-<body>
-<h1>請輸入密碼:</h1>
+<body style="background-color:rgb(0,0,0);">
+    <div class="psd-input">
+        <h1>請輸入密碼</h1>
+    </div>
 <form action ="identification.php" method="GET">
-<label for="pass"><br></label>
-<input type="text" style="font-size: small;font-family: Microsoft JhengHei;padding:10px" id ="pass" name="password"><br><br>
-<input type="submit" value="送出" style="width:100px;height: 50px;font-size: medium;font-family: Microsoft JhengHei;"> <br> <br>
+    <label for="pass"><br></label>
+        <div class="textbox">
+        <input type="text" placeholder="前後不要留空" style="font-size: small;font-family: Microsoft JhengHei;padding:10px" id ="pass" name="password"><br><br>
+        </div> 
+    <div class="smt">
+    <input type="submit" value="送出" style="width:100px;height: 50px;font-size: medium;font-family: Microsoft JhengHei;"> <br> <br>
+    </div>
 </form>
 
 </body>
