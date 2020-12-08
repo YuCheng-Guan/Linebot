@@ -1,5 +1,6 @@
 <html>
 <body style="background-color:rgb(0,0,0)";>
+    <titile></title>
 <?php 
 $password = $_GET["password"];
 $index_url = 'https://www.youtube.com/';
