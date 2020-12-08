@@ -2,7 +2,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: cursive;
+  font-family: Microsoft JhengHei;
 }
 .psd-input{
   width: 280px;
@@ -22,7 +22,7 @@ body{
 .textbox{
   width: 100%;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 30px;
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid #4caf50;
