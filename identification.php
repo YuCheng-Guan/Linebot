@@ -1,6 +1,6 @@
 <html>
 <body style="background-color:rgb(0,0,0)";>
-    <titile></title>
+    <titile>恭喜你Pass!</title>
 <?php 
 $password = $_GET["password"];
 $index_url = 'https://www.youtube.com/';
@@ -20,7 +20,7 @@ for($i=0;$i<6;$i++){
         }
     }
     else{
-        echo "<script>alert('Error')</script>";
+        echo "<script>alert('重新輸入')</script>";
         echo "<script>history.go(-1)</script>";
         exit();
     }    
