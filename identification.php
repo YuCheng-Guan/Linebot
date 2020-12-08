@@ -17,8 +17,8 @@ for($i=0;$i<5;$i++){
     if($i<=3 & $password!=''){
         if ($password == $passwordarray[$i]){
             echo "<html><br><body background-color:rgb(0,0,0)>"
-            echo "<img src= https:","/" , $img_src[$i][1],"\"","style=" display: block;margin-left: auto;margin-right: auto;width: 50%;"><br>";
-            echo "<img src= https:","/" , $img_src[$i][2],"\"","style=" display: block;margin-left: auto;margin-right: auto;width: 50%;"><br></body><br></html>";
+            echo "<img src=","\"" https:","/" , $img_src[$i][1],"\"","style=" display: block;margin-left: auto;margin-right: auto;width: 50%;"><br>";
+            echo "<img src=","\"", https:","/" , $img_src[$i][2],"\"","style=" display: block;margin-left: auto;margin-right: auto;width: 50%;"><br></body><br></html>";
             exit();
         }
     }
