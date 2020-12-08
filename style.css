@@ -2,11 +2,9 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: url(bg.jpg) no-repeat;
-  background-size: cover;
+  font-family: cursive;
 }
-.login-box{
+.psd-input{
   width: 280px;
   position: absolute;
   top: 50%;
@@ -28,11 +26,6 @@ body{
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid #4caf50;
-}
-.textbox i{
-  width: 26px;
-  float: left;
-  text-align: center;
 }
 .textbox input{
   border: none;
