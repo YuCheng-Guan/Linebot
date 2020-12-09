@@ -3,7 +3,7 @@
     <titile>恭喜你Pass!</title>
 <?php 
 $password = $_GET["password"];
-$index_url = 'https://www.youtube.com/';
+$index_url = 'https://web-guan.herokuapp.com/';
 $passwordarray = array('郎窯紅穿帶瓶','侍衛','JAY','The ship repairer is actually a spy from B chamber of commerce.');
 $img_src = array(0=>array(1=>'/i.imgur.com/AHvrGdu.png',2=>'/i.imgur.com/fh3gJBY.png'),
                  1=>array(1=>'/i.imgur.com/F0QIFuw.png',2=>'/i.imgur.com/G1NyXIO.png'),
@@ -20,7 +20,8 @@ for($i=0;$i<6;$i++){
         }
     }
     else{
-        echo "<script>alert('密碼錯誤!');history.back();</script>";
+        echo "<script>alert('密碼錯誤!'</script>";
+        header ('Location: https://web-guan.herokuapp.com/');
         exit();
     }    
 }
