@@ -21,7 +21,7 @@ for($i=0;$i<6;$i++){
     }
     else{
         echo "<script>alert('密碼錯誤!')</script>";
-        echo "<script>window.location.reload()</script>";
+        echo "<script>window.history.go(-1);window.location.reload()</script>";
         exit();
     }    
 }
