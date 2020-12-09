@@ -20,7 +20,7 @@ for($i=0;$i<6;$i++){
         }
     }
     else{
-        echo "<script>alert('密碼錯誤!'</script>";
+        echo "<script>alert('密碼錯誤!')</script>";
         header ('Location: https://web-guan.herokuapp.com/');
         exit();
     }    
