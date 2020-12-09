@@ -11,7 +11,7 @@ $img_src = array(0=>array(1=>'/i.imgur.com/F0QIFuw.png',2=>'/i.imgur.com/G1NyXIO
                  3=>array(1=>'/i.imgur.com/qCyNVhZ.jpg',2=>'/i.imgur.com/e4N2dMF.jpg')
                 );
 for($i=0;$i<5;$i++){
-    if($i<=4 & $password!=''){
+    if($i<=3 & $password!=''){
         if ($password == $passwordarray[$i]){
             echo "<img src= "."\"https:"."/" . $img_src[$i][1]."\""."style="."\""."display: block;margin-left: auto;margin-right: auto;width: 50%;","\">","<br>";
             echo "<img src= "."\"https:"."/" . $img_src[$i][2]."\""."style="."\""."display: block;margin-left: auto;margin-right: auto;width: 50%;","\">","<br>";
