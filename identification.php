@@ -20,8 +20,8 @@ for($i=0;$i<6;$i++){
         }
     }
     else{
-        echo "<script>alert('重新輸入')</script>";
-        echo "<script>history.go(-1)</script>";
+        echo "<script>alert('密碼錯誤!')</script>";
+        echo "<a href="javascript:window.location.reload()">重新整理</a>";
         exit();
     }    
 }
