@@ -7,7 +7,7 @@
 <?php 
 $password = $_GET["password"];
 $index_url = 'https://web-guan.herokuapp.com/';
-$passwordarray = array('郎窯紅穿帶瓶','侍衛','JAY','The ship repairer is actually a spy from B chamber of commerce.');
+$passwordarray = array('郎窯紅穿帶瓶','侍衛','Jay','The ship repairer is actually a spy from B chamber of commerce.');
 $img_src = array(0=>array(1=>'/i.imgur.com/F0QIFuw.png',2=>'/i.imgur.com/G1NyXIO.png'),
                  1=>array(1=>'/i.imgur.com/6g5OGd3.png',2=>'/i.imgur.com/Qr0MyZR.png'),
                  2=>array(1=>'/i.imgur.com/srPtUge.png',2=>'/i.imgur.com/dIrGQLS.png'),
