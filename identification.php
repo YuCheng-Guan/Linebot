@@ -1,5 +1,8 @@
 <html>
-    <head><titile>恭喜你Pass!</title></head>
+    <head>
+        <meta charset="utf-8">
+        <titile>恭喜你Pass!</title>
+    </head>
 <body style="background-color:rgb(0,0,0)">
 <?php 
 $password = $_GET["password"];
