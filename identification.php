@@ -1,6 +1,6 @@
 <html>
-<body style="background-color:rgb(0,0,0)";>
-    <titile>恭喜你Pass!</title>
+    <head><titile>恭喜你Pass!</title></head>
+<body style="background-color:rgb(0,0,0)">
 <?php 
 $password = $_GET["password"];
 $index_url = 'https://web-guan.herokuapp.com/';
